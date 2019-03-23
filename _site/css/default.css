@@ -1,0 +1,105 @@
+html *, body * {
+	box-sizing: border-box; 
+}
+
+html,body{
+background: #111;
+color: #fefefe;
+margin:0;
+padding:0;
+font-family:"Open Sans", sans-serif;
+}
+
+
+h1, h2, h3, h4, h5{
+	font-family: 'Raleway', sans-serif;
+}
+header {
+	background-image: linear-gradient(#CECEC7 84.5%,  #1C1924 86%);
+}
+
+header h1 {
+	color:#222;
+	position:absolute;
+	z-index:100;
+	text-align:center;
+	width:100%;
+	display:block;
+	margin:auto;
+	top: .5rem;
+}
+header img {
+	margin:auto;
+	display: block;
+	max-width: 100%;
+	margin-bottom:-1.5rem;
+	
+}
+nav {
+	display:block;
+	width:100%;
+	min-height:1.5rem;
+	padding-bottom:.25rem;
+	text-align:center;
+	background-color: #1C1924;
+}
+
+nav a {
+	font-size:1.5rem;
+	display: inline-block;
+	margin:auto;
+	margin-left:10%;
+	margin-right:10%;
+	color: #999;
+	transition: color .5s;
+
+}
+nav a:hover{
+	cursor: pointer;
+ 	color: inherit;
+	-webkit-transform: rotate(25deg);
+	transform: rotate(-15deg);
+}
+main {
+	background-image: linear-gradient(#1C1A27, #222);
+	margin:auto;
+	max-width:95%;
+}
+main p {
+	padding:.25rem;
+}
+
+footer{
+	display:block;
+	width:100%;
+	margin:auto;
+	padding-bottom:.5rem;
+	text-align:center;
+}
+footer i {
+	min-width:30%;
+	margin:auto;
+	font-size: 2rem;
+}
+@media screen and (min-width: 480px){
+
+main{
+	max-width: 80%;
+	margin:auto;
+}
+main p {
+	padding:2rem;
+}
+
+header {
+	background-image: linear-gradient(179.25deg, #CECEC7 80%,  #1C1924 82%);
+}
+
+
+header img {
+	max-width:20%;
+}
+
+}
+
+
