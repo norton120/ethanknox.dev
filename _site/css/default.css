@@ -42,13 +42,23 @@ main {
 	margin:auto;
 	max-width:95%;
 }
-main h3 {
+main h3, main h4 {
 	text-align:center;
 	padding:2rem;
 	padding-bottom:0;
 }
+
+
 main p {
 	padding:.25rem;
+}
+
+main a{
+	color:inherit;
+}
+
+main a:hover{
+	font-weight:bold;
 }
 
 footer{
@@ -114,7 +124,8 @@ main{
 	width: 95%;
 	margin:auto;
 }
-main h3{
+main h3, main h4{
+	
 	text-align:left;
 }
 main p {
