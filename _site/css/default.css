@@ -78,8 +78,9 @@ nav a {
 }
 
 footer a i {
-	min-width:30%;
 	margin:auto;
+	margin-left:15%;
+	margin-right:15%;
 	font-size: 2rem;
 }
 
