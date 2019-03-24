@@ -35,6 +35,30 @@ header img {
 	margin-bottom:-1.5rem;
 	
 }
+
+
+main {
+	background-image: linear-gradient(#1C1A27, #222);
+	margin:auto;
+	max-width:95%;
+}
+main h3 {
+	text-align:center;
+	padding:2rem;
+	padding-bottom:0;
+}
+main p {
+	padding:.25rem;
+}
+
+footer{
+	display:block;
+	width:100%;
+	margin:auto;
+	padding-bottom:.5rem;
+	text-align:center;
+}
+
 nav {
 	display:block;
 	width:100%;
@@ -50,42 +74,34 @@ nav a {
 	margin:auto;
 	margin-left:10%;
 	margin-right:10%;
-	color: #999;
-	transition: color .5s;
 
 }
-nav a:hover{
-	cursor: pointer;
- 	color: inherit;
-	-webkit-transform: rotate(25deg);
-	transform: rotate(-15deg);
-}
-main {
-	background-image: linear-gradient(#1C1A27, #222);
-	margin:auto;
-	max-width:95%;
-}
-main p {
-	padding:.25rem;
-}
 
-footer{
-	display:block;
-	width:100%;
-	margin:auto;
-	padding-bottom:.5rem;
-	text-align:center;
-}
-footer i {
+footer a i {
 	min-width:30%;
 	margin:auto;
 	font-size: 2rem;
+}
+
+nav a, footer a i {
+	color: #999;
+	transition: color .5s;
+}
+
+nav a:hover, footer a i:hover {
+	cursor: pointer;
+ 	color: #fefefe;
+	-webkit-transform: rotate(25deg);
+	transform: rotate(-15deg);
 }
 @media screen and (min-width: 480px){
 
 main{
 	max-width: 80%;
 	margin:auto;
+}
+main h3{
+	text-align:left;
 }
 main p {
 	padding:2rem;
