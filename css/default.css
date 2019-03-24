@@ -95,10 +95,23 @@ nav a:hover, footer a i:hover {
 	-webkit-transform: rotate(25deg);
 	transform: rotate(-15deg);
 }
+
+.contact-iframe {
+	width:100%;
+	text-align:center;
+	margin-top:2rem;
+	padding-top:2rem;
+}
+
+.contact-iframe iframe {
+	max-width:95%;
+	height: 1070px;
+}
+
 @media screen and (min-width: 480px){
 
 main{
-	max-width: 80%;
+	width: 95%;
 	margin:auto;
 }
 main h3{
@@ -120,3 +133,8 @@ header img {
 }
 
 
+@media screen and (min-width: 640px){
+.contact-iframe iframe {
+	width:640px;
+}	
+}
